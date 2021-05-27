@@ -4,7 +4,7 @@
 # ----------------------------------------
 
 # PULL BASE IMAGE
-FROM amd64/ubuntu:18.04
+FROM arm64v8/ubuntu:18.04
 
 # PACKAGE VERSIONS
 ARG _TF_VERSION=0.14.10
